@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-from ai import speak,audio
+from ai import audio
 name=audio()
 url=requests.get('https://www.google.com/search?q''='+str(name)+'+share+price')
 
